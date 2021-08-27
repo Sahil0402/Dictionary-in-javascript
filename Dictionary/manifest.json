@@ -1,0 +1,23 @@
+{
+    "name": "Dictionary",
+    "short_name": "Dictionary",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#694AD2",
+    "theme_color": "#000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "dictionary_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "dictionary_180.png",
+            "type": "image/png",
+            "sizes": "180x180",
+            "purpose": "any"
+        }
+    ]
+}

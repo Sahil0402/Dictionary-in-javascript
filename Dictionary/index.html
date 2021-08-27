@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dictionary</title>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins&display=swap' rel='stylesheet'>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="shortcut icon" href="./dictionary.png" type="image/x-icon">
+    <meta name="theme-color" content="#000">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="dictionary_180.png">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+
+</head>
+
+<body background="./circle-scatter-haikei.svg"
+    style="background-repeat: no-repeat;background-position: center;background-size: cover;">
+    <div class="container" id="container">
+        <!-- parent div :To center the div  -->
+        <!-- //!════════════════════════════════════════════════════════════════════════════════════════════════!// -->
+        <div class="controls">
+            <!-- to perfectly use the flex box -->
+            <input type="text" autocomplete="off" placeholder="Search for a word" name="" id="inputText">
+            <!-- to search -->
+        </div>
+        <!-- //!════════════════════════════════════════════════════════════════════════════════════════════════!// -->
+        <div class="data line" id="data">
+            <!-- To show the skelton effect, meaning and example -->
+            <div class="line" id="word"></div> <!-- To indicate which word is searched -->
+            <div class="meaning" id="meaning">
+                <!-- To display the meaning -->
+                <div class="line" id="line"></div> <!-- skeleton class -->
+            </div>
+            <div class="examples" id="examples">
+                <!-- To display the example -->
+                <div class="line" id="line2"></div> <!-- skeleton class -->
+            </div>
+        </div>
+        <!-- //!════════════════════════════════════════════════════════════════════════════════════════════════!// -->
+    </div>
+</body>
+
+</html>
+<script src="./app.js"></script>
