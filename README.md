@@ -1,6 +1,3 @@
-# Dictionary-in-javascript
-Dictionary in javascript using fetch API
-
 # Dictionay in Javascript
 
 In this project, I created a Dictionary using only basic HTML,CSS and some Advance Javascript.
