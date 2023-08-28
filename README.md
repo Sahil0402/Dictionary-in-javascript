@@ -12,7 +12,7 @@ It is a web app that can be install through your browser.
 Just open the link below in your favorite browser.
 
 ```
-https://vibrant-euler-038882.netlify.app
+https://meaning-finder.netlify.app
 ```
 For Large devices you will see Install button on your address bar
 
